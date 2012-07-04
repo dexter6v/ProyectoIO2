@@ -1,4 +1,3 @@
-
 package algorithm;
 
 /**
@@ -34,18 +33,18 @@ public class AlgorithmView extends javax.swing.JFrame {
     public static void main(String args[]) {
         AlgorithmView algorithView = new AlgorithmView();
         algorithView.setVisible(true);
-        
+
         Algorithm algorithm = new Algorithm();
-        if(algorithm.recorrido_caballo(0, 4)){
+        if (algorithm.recorrido_caballo(0, 2, 5, 5)) {
             for (int j = 0; j < algorithm.tablero.length; j++) {
                 for (int i = 0; i < algorithm.tablero[j].length; i++) {
-                    System.out.print(" "+algorithm.tablero[j][i]);
+                    System.out.print(" " + algorithm.tablero[j][i]);
                 }
                 System.out.println("");
             }
         }
         System.out.println("termino");
-        
+
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
