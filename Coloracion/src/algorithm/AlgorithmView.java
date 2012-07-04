@@ -34,6 +34,17 @@ public class AlgorithmView extends javax.swing.JFrame {
     public static void main(String args[]) {
         AlgorithmView algorithView = new AlgorithmView();
         algorithView.setVisible(true);
+        
+        //prueba
+        Algorithm algorithm = new Algorithm();
+        int[][] graph =  {
+            {-1,1,-1,-1},
+            {1,-1,1,1},
+            {-1,1,-1,1},
+            {-1,1,1,-1}
+        };
+        int[] color = algorithm.coloracion(graph);
+        
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
