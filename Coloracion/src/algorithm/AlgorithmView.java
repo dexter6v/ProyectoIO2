@@ -285,16 +285,16 @@ public class AlgorithmView extends javax.swing.JFrame {
 
         jPanel1.add(nodod, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 260, -1, -1));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("/home/oficina/Documentos/proyectos/ProyectoIO2/Coloracion/src/1.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/1.png"))); // NOI18N
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 390, 70));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("/home/oficina/Documentos/proyectos/ProyectoIO2/Coloracion/src/2.png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/2.png"))); // NOI18N
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, -1, -1));
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("/home/oficina/Documentos/proyectos/ProyectoIO2/Coloracion/src/3.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/3.png"))); // NOI18N
         jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, -1, -1));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("/home/oficina/Documentos/proyectos/ProyectoIO2/Coloracion/src/4.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/4.png"))); // NOI18N
         jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 280, -1, -1));
 
         jButton1.setText("Hacer");
